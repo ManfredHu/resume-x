@@ -1,0 +1,15 @@
+:root {
+  /* primary theme color */
+  --mh-c-primary: #1169bf;
+  /* page background color, the background color at the bottom of the page */
+  --mh-c-page-bg: #f7f7f7;
+  /* page main background color */
+  --mh-c-page-main-bg: #fff;
+  /* project title bottom line color */
+  --mh-c-line: #ddd;
+  /* base text color */
+  --mh-c-text: rgb(22, 24, 35);
+  /* icons and footer text color */
+  --mh-c-icons: #fff;
+}
+/* dont' write any code here */

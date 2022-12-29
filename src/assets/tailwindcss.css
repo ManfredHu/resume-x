@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add class that tailwindcss does not have */ 
+@layer utilities {
+  /* https://tailwindcss.com/docs/border-width */
+  .border-3 {
+    border-width: 3px;
+  }
+  .h-2px {
+    height: 2px;
+  }
+}
