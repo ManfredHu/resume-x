@@ -31,18 +31,19 @@ module.exports = {
   content: ["./index.{html,jd,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx,vue}"],
   theme: {
     extend: {
-      backgroundColor: {
-        //utilities like `bg-primary`
-        ...customColors,
-      },
-      textColor: {
-        //like `text-primary`
-        ...customColors,
-      },
-      borderColor: {
-        //like `border-primary`
-        ...customColors,
-      },
+      // don't set in compile because want to change color in runtime
+      // backgroundColor: {
+      //   //utilities like `bg-primary`
+      //   ...customColors,
+      // },
+      // textColor: {
+      //   //like `text-primary`
+      //   ...customColors,
+      // },
+      // borderColor: {
+      //   //like `border-primary`
+      //   ...customColors,
+      // },
     },
   },
   plugins: [],

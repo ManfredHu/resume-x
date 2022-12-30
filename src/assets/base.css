@@ -1,6 +1,6 @@
 :root {
   /* primary theme color */
-  --mh-c-primary: #1169bf;
+  --mh-c-primary: #42b883;
   /* page background color, the background color at the bottom of the page */
   --mh-c-page-bg: #f7f7f7;
   /* page main background color */
@@ -9,6 +9,8 @@
   --mh-c-line: #ddd;
   /* base text color */
   --mh-c-text: rgb(22, 24, 35);
+  /* base text const color */
+  --mh-c-text-const: #fff;
   /* icons and footer text color */
   --mh-c-icons: #fff;
 }

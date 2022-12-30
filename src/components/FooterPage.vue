@@ -7,7 +7,7 @@ defineProps<FooterPage>();
   <footer>
     <section class="py-8 gap-y-4 w-full bg-primary flex flex-col items-center">
       <div
-        class="text-base text-center text-icons"
+        class="mh-c-text-const text-center mh-c-text"
         v-for="(item, idx) in footerTextArr"
         :key="`footer` + idx"
       >

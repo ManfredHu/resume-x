@@ -1,14 +1,20 @@
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    /* primary theme color */
+    --mh-c-primary: #42b883;
+    /* page background color, the background color at the bottom of the page */
+    --mh-c-page-bg: #1A1A1A;
+    /* page main background color */
+    --mh-c-page-main-bg: #242424;
+    /* project title bottom line color */
+    --mh-c-line: #ddd;
+    /* base text color */
+    --mh-c-text: #fff;
+    /* base text const color */
+    --mh-c-text-const: #fff;
+    /* icons and footer text color */
+    --mh-c-icons: #fff;
   }
-} */
+  /* dont' write any code here */
+} 

@@ -21,7 +21,7 @@
         <div class="rounded-full text-xl text-white bg-primary py-2 px-4">
           {{ applyPosition }}
         </div>
-        <div class="text-xl">{{ target }}</div>
+        <div class="text-xl mh-c-text">{{ target }}</div>
       </div>
       <div
         class="p-7 grid grid-cols-2 gap-4 border-b-2 border-primary bottom-line-dot-r"
@@ -29,7 +29,7 @@
         <div
           v-for="(baseInfoItem, idx) in baseInfoList"
           :key="idx"
-          class="text-xl flex flex-row items-center gap-4"
+          class="text-xl mh-c-text flex flex-row items-center gap-4"
         >
           <ion-icon
             class=""

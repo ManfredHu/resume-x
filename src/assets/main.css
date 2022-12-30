@@ -1,1 +1,26 @@
 @import './base.css';
+@import './dark.css';
+
+.mh-c-page-bg {
+  background-color: var(--mh-c-page-bg);
+}
+.mh-c-page-main-bg {
+  background-color: var(--mh-c-page-main-bg);  
+}
+.mh-c-text {
+  color: var(--mh-c-text);
+}
+.mh-c-text-const {
+  color: var(--mh-c-text-const);
+}
+
+.text-primary {
+  color: var(--mh-c-primary);
+}
+
+.bg-primary {
+  background-color: var(--mh-c-primary);
+}
+.border-primary {
+  border-color: var(--mh-c-primary);
+}

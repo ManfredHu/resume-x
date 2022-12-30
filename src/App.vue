@@ -4,7 +4,7 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="w-full bg-page-bg">
+  <div class="w-full mh-c-page-bg">
     <!-- <header>
       <NavHeader />
     </header> -->

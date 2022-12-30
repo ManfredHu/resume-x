@@ -6,7 +6,7 @@ import FooterPage from "@/components/FooterPage.vue";
 </script>
 
 <template>
-  <div class="bg-page-main-bg container mx-auto max-w-7xl px-20 pt-14 pb-32">
+  <div class="mh-c-page-main-bg container mx-auto max-w-7xl px-20 pt-14 pb-32">
     <!-- https://github.com/vuejs/vue/issues/4962 -->
     <BaseInfo v-bind="basicInfo" />
     <MainIntroduction v-bind="mainIntroduction" />

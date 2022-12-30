@@ -94,7 +94,7 @@ export default {
         },
         {
           period: {
-            timePeriod: "2008-2013",
+            timePeriod: "2012-2013",
             headship: "University Student",
           },
           textList: "I was a student at Oxford University",
