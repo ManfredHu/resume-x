@@ -7,10 +7,10 @@ defineProps<MainIntroduction>();
 
 <template>
   <div class="w-full flex flex-col">
-    <div
+    <section
       v-for="(item, idx) in content"
       :key="`main-introduction` + idx"
-      class="flex flex-col items-center"
+      class="flex flex-col items-center pb-6"
     >
       <MainIntroductionTitle
         :key="`main-introduction-title` + idx"
@@ -20,7 +20,7 @@ defineProps<MainIntroduction>();
         :key="`main-introduction-body` + idx"
         v-bind="item"
       />
-    </div>
+    </section>
   </div>
 </template>
 

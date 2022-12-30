@@ -6,7 +6,7 @@ export default {
   name: "Tony Stark",
   nickName: "Iron Man",
   applyPosition: "Application Position",
-  target: "The Avengers",
+  target: "The Leader of the Avengers",
 
   baseInfoList: [
     {

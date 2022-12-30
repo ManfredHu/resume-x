@@ -51,8 +51,6 @@ export default {
       mainContent: [
         {
           subTitle: "Experience",
-        },
-        {
           period: {
             timePeriod: "2017-present",
             headship: "CEO, Stark Industries",
@@ -100,6 +98,34 @@ export default {
             headship: "University Student",
           },
           textList: "I was a student at Oxford University",
+        },
+        {
+          subTitle: "Awards",
+          rewards: [
+            {
+              rewardsType: "National Science Foundation Honorable Mention",
+              text: "This award recognizes outstanding research and academic achievements in science and engineering fields. It is given to a select group of individuals who have made significant contributions to their fields through research, teaching, and service.",
+            },
+            {
+              rewardsType:
+                "US Patent and Trademark Office patents for innovative technologies",
+              text: "These patents would recognize Tony Stark's innovative technologies developed for industrial production. Patent holders are granted exclusive rights to their inventions, which can be used to generate revenue through licensing or selling the patented technology to others.",
+            },
+            {
+              rewardsType:
+                "American Association for Artificial Intelligence Distinguished Scientist Award",
+              text: "This award recognizes individuals who have made significant contributions to the field of artificial intelligence through their research, education, and leadership. It is given to a small group of individuals who have distinguished themselves in their work and have contributed to the advancement of the field.",
+            },
+            {
+              rewardsType:
+                "Institute of Electrical and Electronics Engineers Fellowship",
+              text: "This honor is given to a select group of individuals who have made significant contributions to the fields of electrical and electronic engineering through their research, teaching, and service. Fellowship is a prestigious recognition that is only given to a small percentage of the institute's members.",
+            },
+            {
+              rewardsType: "Oxford University Outstanding Teacher Award",
+              text: "This award recognizes faculty members who have demonstrated excellence in teaching and have made significant contributions to the education of their students. It is given to a small group of individuals who have been nominated by their colleagues and selected by a committee of their peers.",
+            },
+          ],
         },
       ],
     },

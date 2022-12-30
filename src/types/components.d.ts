@@ -22,6 +22,7 @@ export type MainIntroductionTitle = {
 };
 
 type MainIntroductionContent = {
+  // section common params
   subTitle?: string;
   textList?: string | string[];
 
@@ -33,10 +34,10 @@ type MainIntroductionContent = {
   };
 
   // for 'Awards'
-  // rewards?: {
-  //   rewardsType?: string;
-  //   text: string;
-  // }[];
+  rewards?: {
+    rewardsType?: string;
+    text: string;
+  }[];
 
   // // for 'Projects'
   // projects?: {
