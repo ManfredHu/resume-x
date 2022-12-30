@@ -1,4 +1,5 @@
 import type { Components } from "ionicons/dist/types/index";
+import type { TitleStyleType } from "./enum";
 
 export type BaseInfoType = {
   avator: string;
@@ -12,17 +13,6 @@ export type BaseInfoType = {
   })[];
 };
 
-export enum TitleStyleType {
-  // '<Something />'
-  AngleBracket,
-  // '{Something}'
-  CurlyBracket,
-  // '[Something]'
-  SquareBracket,
-  // '(Something)'
-  RoundBracket,
-}
-
 export type MainIntroductionTitle = {
   title: string;
   desc?: string;
@@ -33,37 +23,37 @@ export type MainIntroductionTitle = {
 
 type MainIntroductionContent = {
   subTitle?: string;
-  textList?: string[];
+  textList?: string | string[];
 
   // for 'Experience'
   period?: {
     timePeriod?: string;
     headship?: string;
-    textList?: string[];
-  }[];
+    textList?: string | string[];
+  };
 
   // for 'Awards'
-  rewards?: {
-    rewardsType?: string;
-    text: string;
-  }[];
+  // rewards?: {
+  //   rewardsType?: string;
+  //   text: string;
+  // }[];
 
-  // for 'Projects'
-  projects?: {
-    projectName: string;
-    projectImages?: string[];
+  // // for 'Projects'
+  // projects?: {
+  //   projectName: string;
+  //   projectImages?: string[];
 
-    content?: {
-      subTile?: string;
-      textList?: string | string[];
-    };
-  }[];
+  //   content?: {
+  //     subTile?: string;
+  //     textList?: string[];
+  //   };
+  // }[];
 };
 
 export type MainIntroduction = {
   content: {
     header: MainIntroductionTitle;
-    content: MainIntroductionContent;
+    mainContent: MainIntroductionContent[];
   }[];
 };
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { MainIntroduction } from "@/types/components";
+import MainIntroductionBody from "./MainIntroductionBody.vue";
 import MainIntroductionTitle from "./MainIntroductionTitle.vue";
 defineProps<MainIntroduction>();
 </script>
@@ -14,6 +15,10 @@ defineProps<MainIntroduction>();
       <MainIntroductionTitle
         :key="`main-introduction-title` + idx"
         v-bind="item.header"
+      />
+      <MainIntroductionBody
+        :key="`main-introduction-body` + idx"
+        v-bind="item"
       />
     </div>
   </div>

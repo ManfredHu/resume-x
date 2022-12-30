@@ -4,7 +4,7 @@
   >
     <i
       v-if="inlineStartLine"
-      class="flex-grow mr-3 h-2px center-line-dot-l relative bg-primary"
+      class="flex-grow mr-5 h-2px center-line-dot-l relative bg-primary"
     ></i>
     <div class="flex flex-col content-center gap-y-1">
       <div
@@ -24,14 +24,14 @@
     </div>
     <i
       v-if="inlineEndLine"
-      class="flex-grow ml-3 h-2px center-line-dot-r relative bg-primary"
+      class="flex-grow ml-5 h-2px center-line-dot-r relative bg-primary"
     ></i>
   </div>
 </template>
 
 <script setup lang="ts">
-import { TitleStyleType } from "@/types/components";
 import type { MainIntroductionTitle } from "@/types/components";
+import { TitleStyleType } from "@/types/enum";
 import { computed } from "vue";
 const props = defineProps<MainIntroductionTitle>();
 
