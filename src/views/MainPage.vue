@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { basicInfo, mainIntroduction, footerPage } from "@/data/index";
+import { basicInfo, mainIntroduction } from "@/data/index";
 import BaseInfo from "@/components/BasicInfo.vue";
 import MainIntroduction from "@/components/MainIntroduction.vue";
-import FooterPage from "@/components/FooterPage.vue";
 </script>
 
 <template>
@@ -11,7 +10,6 @@ import FooterPage from "@/components/FooterPage.vue";
     <BaseInfo v-bind="basicInfo" />
     <MainIntroduction v-bind="mainIntroduction" />
   </div>
-  <FooterPage v-bind="footerPage" />
 </template>
 
 <style scoped></style>

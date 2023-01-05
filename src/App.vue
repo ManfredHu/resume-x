@@ -1,15 +1,14 @@
 <script setup lang="ts">
+import SideBar from "@/components/SideBar.vue";
 import { RouterView } from "vue-router";
-// import NavHeader from "./components/NavHeader.vue";
+import { footerPage } from "@/data/index";
 </script>
 
 <template>
   <div class="w-full mh-c-page-bg">
-    <!-- <header>
-      <NavHeader />
-    </header> -->
-
+    <SideBar />
     <RouterView />
+    <FooterPage v-bind="footerPage" />
   </div>
 </template>
 
