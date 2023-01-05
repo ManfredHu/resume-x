@@ -20,6 +20,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ## Todo
 - [x] icons Support by [ionicons](https://ionic.io/ionicons)
+- [x] support dark mode
 - [ ] support famous IT componys(like FAANG) colors by Router   
 - [ ] i18n 
 - [ ] picture preview
