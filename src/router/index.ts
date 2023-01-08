@@ -9,6 +9,11 @@ const router = createRouter({
       name: "mainpage",
       component: MainPage,
     },
+    {
+      path: "/:lang/:brand",
+      name: "LangBrandPage",
+      component: MainPage,
+    },
     // {
     //   path: "/about",
     //   name: "about",

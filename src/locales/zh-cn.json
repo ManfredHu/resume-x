@@ -1,0 +1,15 @@
+{
+  "mail": "tony@starkindustries.com",
+  "name": "托尼史塔克",
+  "nickName": "钢铁侠",
+  "school": "牛津大学 (2009-2013)",
+  "science": "计算机科学",
+  "applyPosition": "申请职位",
+  "birthday": "1970年5月29日",
+  "github": "github.com/托尼·斯塔克",
+  "call": "555-555-5555",
+  "target": "复仇者联盟的领袖",
+  "home": "托尼史塔克.com",
+  "copyright": "© 2022 由 ManfredHu 创建，保留所有权利",
+  "footerDesc": "本站由ManfredHu设计和开发，基于Vue Vite TailwindCSS构建，并部署在Github Page上"
+}

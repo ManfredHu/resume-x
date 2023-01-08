@@ -3,46 +3,42 @@ import Avator from "@/images/iron-man.jpeg";
 
 export default {
   avator: Avator,
-  name: "Tony Stark",
-  nickName: "Iron Man",
-  applyPosition: "Application Position",
-  target: "The Leader of the Avengers",
 
   baseInfoList: [
     {
-      name: "logo-facebook",
-      text: "Tony Stark",
+      name: "logo-facebook", // for icon key
+      text: "name", // for text key
     },
     {
       name: "call",
-      text: "555-555-5555",
+      text: "call", // for text key
       link: "tel:555-555-5555",
     },
     {
       name: "school",
-      text: "Oxford University (2009-2013)",
+      text: "school", // for text key,
     },
     {
       name: "mail",
-      text: "tony@starkindustries.com",
+      text: "mail", // for text key
       link: "mailto:tony@starkindustries.com",
     },
     {
       name: "cube-sharp",
-      text: "Computer Science",
+      text: "science", // for text key
     },
     {
       name: "logo-github",
-      text: "github.com/Tony Stark",
+      text: "github", // for text key
       link: "https://github.com/Tony Stark",
     },
     {
       name: "calendar",
-      text: "May 29th,1970",
+      text: "birthday", // for text key
     },
     {
       name: "home",
-      text: "Tony Stark.com",
+      text: "home",
       link: "https://Tony Stark.com/",
     },
   ],

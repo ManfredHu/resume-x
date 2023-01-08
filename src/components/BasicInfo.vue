@@ -8,8 +8,10 @@
         >
           <img class="rounded-full w-full" :src="avator" alt="avator" />
         </div>
-        <span class="block text-primary text-4xl mt-4">{{ name }}</span>
-        <span class="block text-primary text-2xl mt-1">{{ nickName }}</span>
+        <span class="block text-primary text-4xl mt-4">{{ t("name") }}</span>
+        <span class="block text-primary text-2xl mt-1">{{
+          t("nickName")
+        }}</span>
       </div>
     </div>
 
@@ -19,9 +21,9 @@
         class="flex flex-row items-center p-7 pt-0 border-b-2 border-primary border-dashed bottom-line-dot-r bottom-line-dot-l gap-x-5"
       >
         <div class="rounded-full text-xl text-white bg-primary py-2 px-4">
-          {{ applyPosition }}
+          {{ t("applyPosition") }}
         </div>
-        <div class="text-xl mh-c-text">{{ target }}</div>
+        <div class="text-xl mh-c-text">{{ t("target") }}</div>
       </div>
       <div
         class="p-7 grid grid-cols-2 gap-4 border-b-2 border-primary bottom-line-dot-r"
@@ -42,10 +44,10 @@
             v-if="baseInfoItem.link"
             :href="baseInfoItem.link"
             target="_blank"
-            >{{ baseInfoItem.text }}</a
+            >{{ t(baseInfoItem.text) }}</a
           >
           <span v-else>
-            {{ baseInfoItem.text }}
+            {{ t(baseInfoItem.text) }}
           </span>
         </div>
       </div>
@@ -56,7 +58,8 @@
 
 <script setup lang="ts">
 import type { BaseInfoType } from "@/types/components";
-
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 defineProps<BaseInfoType>();
 </script>
 

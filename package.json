@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
+    "hu-tool": "^1.2.40",
     "ionicons": "^6.0.4",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
+    "vue-i18n": "9.3.0-beta.13",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

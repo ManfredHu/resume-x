@@ -57,7 +57,3 @@ export type MainIntroduction = {
     mainContent: MainIntroductionContent[];
   }[];
 };
-
-export type FooterPage = {
-  footerTextArr: string[];
-};
