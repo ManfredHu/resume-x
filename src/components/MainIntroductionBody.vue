@@ -7,7 +7,7 @@
           v-if="item.subTitle"
           className="rounded-full text-xl mh-c-text-const bg-primary px-4 py-1 inline-block"
         >
-          {{ item.subTitle }}
+          {{ t(item.subTitle) }}
         </h2>
         <!-- subTitle end -->
 
@@ -15,10 +15,14 @@
         <div v-if="item.period" class="flex flex-row mt-4">
           <h3 class="text-lg text-primary flex-shrink-0">
             {{
-              `${timePeriodSymbol[0]}${item.period.timePeriod}${timePeriodSymbol[1]}`
+              `${timePeriodSymbol[0]}
+              ${item.period?.timePeriod && t(item.period.timePeriod)}
+              ${timePeriodSymbol[1]}`
             }}
           </h3>
-          <div class="text-lg ml-2 mh-c-text">{{ item.period.headship }}</div>
+          <div class="text-lg ml-2 mh-c-text">
+            {{ item.period.headship && t(item.period.headship) }}
+          </div>
         </div>
         <!-- period end -->
 
@@ -30,10 +34,12 @@
           >
             <h3 class="text-lg text-primary flex-shrink-0 inline-block">
               {{
-                `${rewardsTypeSymbol[0]}${reward.rewardsType}${rewardsTypeSymbol[1]}`
+                `${rewardsTypeSymbol[0]}${
+                  reward.rewardsType && t(reward.rewardsType)
+                }${rewardsTypeSymbol[1]}`
               }}
             </h3>
-            <span class="mh-c-text">{{ reward.text }}</span>
+            <span class="mh-c-text">{{ t(reward.text) }}</span>
           </div>
         </div>
         <!-- rewards end -->
@@ -46,10 +52,12 @@
               :key="`body-textList` + idx"
               class="text-lg mh-c-text list-decimal list-inside"
             >
-              {{ j }}
+              {{ t(j) }}
             </li>
           </ol>
-          <div v-else class="text-lg mh-c-text">{{ item.textList }}</div>
+          <div v-else class="text-lg mh-c-text">
+            {{ item.textList && t(item.textList as string) }}
+          </div>
         </div>
         <!-- textList end -->
       </div>
@@ -60,6 +68,9 @@
 <script setup lang="ts">
 import type { MainIntroductionContent } from "@/types/components";
 import { timePeriodSymbol, rewardsTypeSymbol } from "@/config/symbol";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
 // trick to pass array's type
 defineProps<{
   mainContent: MainIntroductionContent[];

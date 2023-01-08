@@ -5,125 +5,118 @@ export default {
   content: [
     {
       header: {
-        title: "Professional skills",
-        desc: "Some places to brag",
+        title: "sec1_header",
+        desc: "sec1_desc",
         type: TitleStyleType.AngleBracket,
       },
       mainContent: [
         {
-          subTitle: "Programming",
+          subTitle: "sec1_mainContent_subTitle",
           textList: [
-            "Proficient in a variety of programming languages, including C++, Java, Python, and JavaScript",
-            "Knowledgeable in artificial intelligence and machine learning techniques",
-            "Experienced in designing and building robots for a variety of applications, including combat and rescue operations",
-            "Skilled in using various industrial design software",
+            "sec1_mainContent_text1",
+            "sec1_mainContent_text2",
+            "sec1_mainContent_text3",
+            "sec1_mainContent_text4",
           ],
         },
         {
-          subTitle: "Combat",
+          subTitle: "sec1_mainContent2_subTitle",
+          textList: ["sec1_mainContent2_text1", "sec1_mainContent2_text2"],
+        },
+        {
+          subTitle: "sec1_mainContent3_subTitle",
           textList: [
-            "Proficient in hand-to-hand combat and weapons training",
-            "Trained in advanced military tactics and strategy",
+            "sec1_mainContent3_text1",
+            "sec1_mainContent3_text2",
+            "sec1_mainContent3_text3",
           ],
         },
         {
-          subTitle: "Leadership",
-          textList: [
-            "Proven track record of leading and managing teams in various projects",
-            "Skilled in public speaking and presentation",
-            "Ability to make strategic and informed decisions under pressure",
-          ],
-        },
-        {
-          subTitle: "Very handsome",
-          textList: "I'm handsome, or there wouldn't be chili peppers.",
+          subTitle: "sec1_mainContent4_subTitle",
+          textList: "sec1_mainContent4_text1",
         },
       ],
     },
     {
       header: {
-        title: "Experience & Awards",
-        desc: "Those little monsters I hit",
+        title: "sec2_header",
+        desc: "sec2_desc",
         type: TitleStyleType.CurlyBracket,
         inlineStartLine: true,
         inlineEndLine: true,
       },
       mainContent: [
         {
-          subTitle: "Experience",
+          subTitle: "sec2_mainContent_subTitle",
           period: {
-            timePeriod: "2017-present",
-            headship: "CEO, Stark Industries",
+            timePeriod: "sec2_mainContnet_timePeriod",
+            headship: "sec2_mainContnet_headship",
           },
           textList: [
-            "Ensured the smooth and efficient operation of the company",
-            "Generated significant profits and financial success for the company",
-            "Promoted the company's brand and reputation globally",
-            "Developed and produced new generations of robots and advanced armor for various applications",
-            "Led research and development efforts to create innovative technologies and products",
+            "sec2_mainContent_text1",
+            "sec2_mainContent_text2",
+            "sec2_mainContent_text3",
+            "sec2_mainContent_text4",
+            "sec2_mainContent_text5",
           ],
         },
         {
           period: {
-            timePeriod: "2013-2017",
-            headship: "Chief Technology Officer, Stark Industries",
+            timePeriod: "sec2_mainContent2_timePeriod",
+            headship: "sec2_mainContent2_headship",
           },
           textList: [
-            "Managed and directed the work of various teams and departments within the company",
-            "Negotiated partnerships and collaborations with other organizations",
-            "Made strategic decisions and plans to guide the future direction of the company",
-            "Represented the company in public appearances and events",
+            "sec2_mainContent2_text1",
+            "sec2_mainContent2_text2",
+            "sec2_mainContent2_text3",
+            "sec2_mainContent2_text4",
           ],
         },
         {
           period: {
-            timePeriod: "2013-2017",
-            headship:
-              "Assistant Professor of Computer Science, Oxford University",
+            timePeriod: "sec2_mainContent3_timePeriod",
+            headship: "sec2_mainContent3_headship",
           },
           textList: [
-            "Taught undergraduate and graduate level courses in computer science and related fields",
-            "Conducted research in computer science and related areas, and published papers in academic journals and conferences",
-            "Advised students on their academic and professional goals",
-            "Contributed to the academic community through service activities such as participating in departmental and university committees",
-            "Mentored junior faculty and graduate students",
-            "Participated in professional development activities to stay up-to-date with the latest research and trends in the field",
-            "Collaborated with other faculty and researchers on research projects and initiatives",
-            "Engaged in outreach activities to promote the field of computer science and the university's programs",
+            "sec2_mainContent3_text1",
+            "sec2_mainContent3_text2",
+            "sec2_mainContent3_text3",
+            "sec2_mainContent3_text4",
+            "sec2_mainContent3_text5",
+            "sec2_mainContent3_text6",
+            "sec2_mainContent3_text7",
+            "sec2_mainContent3_text8",
           ],
         },
         {
           period: {
-            timePeriod: "2012-2013",
-            headship: "University Student",
+            timePeriod: "sec2_mainContent4_timePeriod",
+            headship: "sec2_mainContent4_headship",
           },
-          textList: "I was a student at Oxford University",
+          textList: "sec2_mainContent4_text1",
         },
         {
-          subTitle: "Awards",
+          subTitle: "sec2_mainContent5_subTitle",
           rewards: [
             {
-              rewardsType: "National Science Foundation Honorable Mention",
-              text: "This award recognizes outstanding research and academic achievements in science and engineering fields. It is given to a select group of individuals who have made significant contributions to their fields through research, teaching, and service.",
+              rewardsType: "sec2_mainContent5_rewardsType1",
+              text: "sec2_mainContent5_rewardsText1",
             },
             {
-              rewardsType:
-                "US Patent and Trademark Office patents for innovative technologies",
-              text: "These patents would recognize Tony Stark's innovative technologies developed for industrial production. Patent holders are granted exclusive rights to their inventions, which can be used to generate revenue through licensing or selling the patented technology to others.",
+              rewardsType: "sec2_mainContent5_rewardsType2",
+              text: "sec2_mainContent5_rewardsText2",
             },
             {
-              rewardsType:
-                "American Association for Artificial Intelligence Distinguished Scientist Award",
-              text: "This award recognizes individuals who have made significant contributions to the field of artificial intelligence through their research, education, and leadership. It is given to a small group of individuals who have distinguished themselves in their work and have contributed to the advancement of the field.",
+              rewardsType: "sec2_mainContent5_rewardsType3",
+              text: "sec2_mainContent5_rewardsText3",
             },
             {
-              rewardsType:
-                "Institute of Electrical and Electronics Engineers Fellowship",
-              text: "This honor is given to a select group of individuals who have made significant contributions to the fields of electrical and electronic engineering through their research, teaching, and service. Fellowship is a prestigious recognition that is only given to a small percentage of the institute's members.",
+              rewardsType: "sec2_mainContent5_rewardsType4",
+              text: "sec2_mainContent5_rewardsText4",
             },
             {
-              rewardsType: "Oxford University Outstanding Teacher Award",
-              text: "This award recognizes faculty members who have demonstrated excellence in teaching and have made significant contributions to the education of their students. It is given to a small group of individuals who have been nominated by their colleagues and selected by a committee of their peers.",
+              rewardsType: "sec2_mainContent5_rewardsType5",
+              text: "sec2_mainContent5_rewardsText5",
             },
           ],
         },
@@ -131,8 +124,8 @@ export default {
     },
     {
       header: {
-        title: "Projects",
-        desc: "Those gadgets",
+        title: "header3",
+        desc: "header3Desc",
         type: TitleStyleType.SquareBracket,
         inlineStartLine: true,
         inlineEndLine: true,

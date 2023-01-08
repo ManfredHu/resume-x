@@ -13,13 +13,13 @@
         <span class="font-semibold">
           {{ inlineStartSymbol }}
         </span>
-        <span class="px-8 text-3xl text-primary">{{ title }}</span>
+        <span class="px-8 text-3xl text-primary">{{ t(title) }}</span>
         <span class="font-semibold">
           {{ inlineEndSymbol }}
         </span>
       </div>
       <div class="text-lg text-primary text-center">
-        {{ desc }}
+        {{ desc && t(desc) }}
       </div>
     </div>
     <i
@@ -33,6 +33,8 @@
 import type { MainIntroductionTitle } from "@/types/components";
 import { TitleStyleType } from "@/types/enum";
 import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 const props = defineProps<MainIntroductionTitle>();
 
 const inlineStartSymbol = computed(() => {
