@@ -3,7 +3,7 @@
     class="w-screen mh-c-page-main-bg top-0 py-4 px-16 flex items-center justify-end border-b nav"
   >
     <n-select
-      class="w-28 mr-6"
+      class="w-48 mr-6"
       v-model:value="value"
       :options="options"
       @update:value="changeLanguage"
@@ -25,18 +25,18 @@ import { NSwitch, NIcon, NSelect, darkTheme } from "naive-ui";
 import { ref, onMounted } from "vue";
 import type { GlobalTheme } from "naive-ui";
 import { useRouter } from "vue-router";
-import { SupportLang } from "@/types/enum";
+import { languageConfig } from "@/config/language";
 
 const active = ref(false);
-const value = ref("zh");
+const value = ref("en");
 
-const options = [
-  { label: "中文", value: SupportLang.zh },
-  { label: "English", value: SupportLang.en },
-  { label: "Deutsch", value: SupportLang.de },
-  { label: "Fran\u00e7ais", value: SupportLang.fr },
-  { label: "\u65e5\u672c\u8a9e", value: SupportLang.ja },
-];
+const options = languageConfig.map((item) => {
+  return {
+    label: item.localizedDisplayName,
+    value: item.locale,
+  };
+});
+
 const theme = ref<GlobalTheme | null>(null);
 const router = useRouter();
 

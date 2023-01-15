@@ -8,11 +8,3 @@ export enum TitleStyleType {
   // '(Something)'
   RoundBracket,
 }
-
-export enum SupportLang {
-  zh = "zh",
-  en = "en",
-  de = "de",
-  fr = "fr",
-  ja = "ja",
-}

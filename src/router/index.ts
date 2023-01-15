@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MainPage from "@/views/MainPage.vue";
 import { i18n } from "@/libs/i18n";
-import type { SupportLang } from "@/types/enum";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,7 +27,7 @@ const router = createRouter({
 });
 
 router.beforeEach(async (to, from, next) => {
-  const lang = to.params.lang as SupportLang;
+  const lang = to.params.lang as string;
   i18n.global.locale.value = lang;
   return next();
 });
