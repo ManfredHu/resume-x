@@ -22,5 +22,5 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 - [x] icons Support by [ionicons](https://ionic.io/ionicons)
 - [x] support dark mode
 - [ ] support famous IT componys(like FAANG) colors by Router   
-- [ ] i18n 
+- [x] i18n, https://zh.m.wikipedia.org/wiki/ISO_639-1
 - [ ] picture preview

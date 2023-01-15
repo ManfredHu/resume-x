@@ -27,7 +27,7 @@
   "sec1_mainContent3_text2": "Skilled in public speaking and presentation",
   "sec1_mainContent3_text3": "Ability to make strategic and informed decisions under pressure",
   "sec1_mainContent4_subTitle": "Very handsome",
-  "sec1_mainContent4_text1" :"I'm handsome, or there wouldn't be chili peppers.",
+  "sec1_mainContent4_text1": "I'm handsome, or there wouldn't be chili peppers.",
   "sec2_header": "Experience & Awards",
   "sec2_desc": "Those little monsters I hit",
   "sec2_mainContent_subTitle": "Experience",
@@ -37,7 +37,7 @@
   "sec2_mainContent_text2": "Generated significant profits and financial success for the company",
   "sec2_mainContent_text3": "Promoted the company's brand and reputation globally",
   "sec2_mainContent_text4": "Developed and produced new generations of robots and advanced armor for various applications",
-  "sec2_mainContent_text5": "Led research and development efforts to create innovative technologies and products", 
+  "sec2_mainContent_text5": "Led research and development efforts to create innovative technologies and products",
   "sec2_mainContent2_timePeriod": "2013-2017",
   "sec2_mainContent2_headship": "Chief Technology Officer, Stark Industries",
   "sec2_mainContent2_text1": "Managed and directed the work of various teams and departments within the company",
@@ -45,7 +45,7 @@
   "sec2_mainContent2_text3": "Made strategic decisions and plans to guide the future direction of the company",
   "sec2_mainContent2_text4": "Represented the company in public appearances and events",
   "sec2_mainContent3_timePeriod": "2013-2017",
-  "sec2_mainContent3_headship": "Assistant Professor of Computer Science, Oxford University", 
+  "sec2_mainContent3_headship": "Assistant Professor of Computer Science, Oxford University",
   "sec2_mainContent3_text1": "Taught undergraduate and graduate level courses in computer science and related fields",
   "sec2_mainContent3_text2": "Conducted research in computer science and related areas, and published papers in academic journals and conferences",
   "sec2_mainContent3_text3": "Advised students on their academic and professional goals",
@@ -55,7 +55,7 @@
   "sec2_mainContent3_text7": "Collaborated with other faculty and researchers on research projects and initiatives",
   "sec2_mainContent3_text8": "Engaged in outreach activities to promote the field of computer science and the university's programs",
   "sec2_mainContent4_timePeriod": "2012-2013",
-  "sec2_mainContent4_headship": "University Student", 
+  "sec2_mainContent4_headship": "University Student",
   "sec2_mainContent4_text1": "I was a student at Oxford University",
   "sec2_mainContent5_subTitle": "Awards",
   "sec2_mainContent5_rewardsType1": "National Science Foundation Honorable Mention",
@@ -69,7 +69,8 @@
   "sec2_mainContent5_rewardsType5": "Oxford University Outstanding Teacher Award",
   "sec2_mainContent5_rewardsText5": "This award recognizes faculty members who have demonstrated excellence in teaching and have made significant contributions to the education of their students. It is given to a small group of individuals who have been nominated by their colleagues and selected by a committee of their peers.",
   "sec2_mainContent5_text1": "2019: The Best CEO of the Year",
-
   "header3": "Projects",
-  "header3Desc": "Those gadgets"
+  "header3Desc": "Those gadgets",
+  "header2": "experience",
+  "header2Desc": "Those little monsters I hit"
 }
