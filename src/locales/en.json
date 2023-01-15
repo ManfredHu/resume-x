@@ -5,7 +5,7 @@
   "target": "The Leader of the Avengers",
   "call": "555-555-5555",
   "school": "Oxford University (2009-2013)",
-  "mail": "tony@starkindustries.com",
+  "mail": "tony{'@'}starkindustries.com",
   "science": "Computer Science",
   "github": "github.com/Tony Stark",
   "birthday": "May 29th,1970",

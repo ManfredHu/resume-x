@@ -2,10 +2,20 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import VueTypeImports from "vite-plugin-vue-type-imports";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
+    // https://stackoverflow.com/a/73215718
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => {
+            return tag.startsWith("ion-"); // (return true)
+          },
+        },
+      },
+    }),
     // https://github.com/vuejs/core/issues/4294#issuecomment-984033739
     VueTypeImports(),
   ],

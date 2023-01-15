@@ -34,7 +34,6 @@
           class="text-xl mh-c-text flex flex-row items-center gap-4"
         >
           <ion-icon
-            class=""
             v-bind="baseInfoItem"
             :color="baseInfoItem.color"
           ></ion-icon>
