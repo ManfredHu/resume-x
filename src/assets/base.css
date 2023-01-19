@@ -13,10 +13,4 @@
   --mh-c-text-const: #fff;
   /* icons and footer text color */
   --mh-c-icons: #fff;
-
-  /* for switch button */
-  --mh-c-mute: #2f2f2f;
-  --mh-c-divide: rgba(84, 84, 84, .65);
-  --mh-c-black: #1a1a1a;
 }
-/* dont' write any code here */

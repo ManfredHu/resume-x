@@ -1,5 +1,5 @@
 
-/* root元素 html 具有dark classname 则为 darkmode */
+/* root element html which dark classname is 'darkmode' */
 :root.dark {
   /* primary theme color */
   --mh-c-primary: #42b883;
@@ -15,11 +15,4 @@
   --mh-c-text-const: #fff;
   /* icons and footer text color */
   --mh-c-icons: #fff;
-
-  /* for switch button */
-  --mh-c-bg-dark: #1a1a1a;
-  --mh-c-bg-soft: #2f2f2f;
-  --mh-c-divide: rgba(84, 84, 84, .65);
-
-  --mh-c-text-1: rgba(255, 255, 255, .87);
 }

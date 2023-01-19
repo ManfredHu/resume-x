@@ -1,3 +1,6 @@
 export const pageTitle = "Tony Stark's Resume";
-
-window.parent.document.title = pageTitle;
+try {
+  window.parent.document.title = pageTitle;
+} catch {
+  console.error("set window.parent.document.title error");
+}
