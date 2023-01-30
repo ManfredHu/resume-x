@@ -12,68 +12,97 @@
  */
 
 type Compony =
-  | "Facebook"
-  | "Google"
-  | "Microsoft"
-  | "Apple"
-  | "Amazon"
-  | "Netflix"
-  | "Baidu"
-  | "Tencent"
-  | "Alibaba"
-  | "Bytedance"
-  | "MeiTuan"
-  | "Didi";
+  // US
+  | "apple"
+  | "amazon"
+  | "facebook"
+  | "google"
+  | "microsoft"
+  | "netflix"
+  // CN
+  | "alibaba"
+  | "baidu"
+  | "bytedance"
+  | "didi"
+  | "jd"
+  | "meituan"
+  | "netease"
+  | "shoope"
+  | "tencent"
+  | "vip"
+  | "wechat";
 
-type Organization = "Vue" | "React" | "Angular";
+type Organization = "vue" | "react" | "angular" | "github";
 
+export type Topic = Compony | Organization;
 type TopicConfig = {
-  [key in Compony | Organization]: {
+  [key in Topic]: {
     primaryColor?: string;
   };
 };
 
 export default {
-  Facebook: {
-    primaryColor: "#3b5998",
-  },
-  Google: {
-    primaryColor: "#4285f4",
-  },
-  Microsoft: {
-    primaryColor: "#f65314",
-  },
-  Apple: {
+  // US
+  apple: {
     primaryColor: "#000",
   },
-  Amazon: {
+  amazon: {
     primaryColor: "#ff9900",
   },
-  Netflix: {
+  facebook: {
+    primaryColor: "#3b5998",
+  },
+  google: {
+    primaryColor: "#4285f4",
+  },
+  microsoft: {
+    primaryColor: "#f65314",
+  },
+  netflix: {
     primaryColor: "#e50914",
   },
-  Baidu: {
+  // CN
+  alibaba: {
+    primaryColor: "#ff5000",
+  },
+  baidu: {
     primaryColor: "#2932e1",
   },
-  Tencent: {
-    primaryColor: "#1aad19",
-  },
-  Alibaba: {
-    primaryColor: "#ff5000",
-  },
-  Bytedance: {
+  bytedance: {
     primaryColor: "#000",
   },
-  MeiTuan: {
+  didi: {
     primaryColor: "#ff5000",
   },
-  Didi: {
+  jd: {
     primaryColor: "#ff5000",
   },
-  Vue: {
+  meituan: {
+    primaryColor: "#ff5000",
+  },
+  netease: {
+    primaryColor: "#c20c0c",
+  },
+  shoope: {
+    primaryColor: "#ff5000",
+  },
+  tencent: {
+    primaryColor: "#3458b0",
+  },
+  vip: {
+    primaryColor: "#cf0075",
+  },
+  wechat: {
+    primaryColor: "#07c160",
+  },
+  // ORG
+  vue: {
     primaryColor: "#42b983",
   },
-  React: {
+  react: {
     primaryColor: "#61dafb",
+  },
+  angular: {
+    primaryColor: "#dd0031",
   },
 } as TopicConfig;

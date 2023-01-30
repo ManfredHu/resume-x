@@ -1,4 +1,57 @@
-export const languageConfig = [
+export type Locale =
+  | "en"
+  | "ar"
+  | "bg"
+  | "de-DE"
+  | "es"
+  | "et"
+  | "fr"
+  | "fr-CA"
+  | "hr"
+  | "id-ID"
+  | "ja-JP"
+  | "ko-KR"
+  | "lt"
+  | "lv"
+  | "ms-MY"
+  | "pt-BR"
+  | "ru-RU"
+  | "sk"
+  | "th-TH"
+  | "tr-TR"
+  | "vi-VN"
+  | "bn-IN"
+  | "ceb-PH"
+  | "cs-CZ"
+  | "da"
+  | "el-GR"
+  | "fi-FI"
+  | "fil-PH"
+  | "he-IL"
+  | "hi-IN"
+  | "hu-HU"
+  | "it-IT"
+  | "jv-ID"
+  | "km-KH"
+  | "my-MM"
+  | "nb"
+  | "nl-NL"
+  | "pl-PL"
+  | "ro-RO"
+  | "sv-SE"
+  | "uk-UA"
+  | "ur"
+  | "uz"
+  | "zh-Hant-TW"
+  | "zh-Hans";
+
+export type LanguageConfig = {
+  displayName: string;
+  locale: Locale;
+  localizedDisplayName: string;
+}[];
+
+export const languageConfig: LanguageConfig = [
   {
     displayName: "English",
     locale: "en",
