@@ -35,9 +35,10 @@ type Compony =
 type Organization = "vue" | "react" | "angular" | "github";
 
 export type Topic = Compony | Organization;
+
 type TopicConfig = {
   [key in Topic]: {
-    primaryColor?: string;
+    primaryColor: string;
   };
 };
 
