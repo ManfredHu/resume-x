@@ -21,7 +21,7 @@ export default defineConfig({
   ],
   server: {
     port: 9111,
-    open: "/en",
+    open: "/en/vue",
   },
   resolve: {
     alias: {

@@ -8,11 +8,6 @@ import TopicConfig from "@/config/topic";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: "/",
-    //   name: "mainpage",
-    //   component: MainPage,
-    // },
     {
       path: "/:path*",
       name: "lang-topic-page",
