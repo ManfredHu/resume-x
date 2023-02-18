@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import NavHeader from "@/components/NavHeader.vue";
-import { RouterView } from "vue-router";
-import FooterPage from "@/components/FooterPage.vue";
-</script>
-
 <template>
   <div class="w-full mh-c-page-bg">
     <NavHeader />
@@ -12,4 +6,9 @@ import FooterPage from "@/components/FooterPage.vue";
   </div>
 </template>
 
+<script setup lang="ts">
+import FooterPage from "@/components/FooterPage.vue";
+import NavHeader from "@/components/NavHeader.vue";
+import { RouterView } from "vue-router";
+</script>
 <style scoped></style>
