@@ -69,8 +69,30 @@
   "sec2_mainContent5_rewardsType5": "Oxford University Outstanding Teacher Award",
   "sec2_mainContent5_rewardsText5": "This award recognizes faculty members who have demonstrated excellence in teaching and have made significant contributions to the education of their students. It is given to a small group of individuals who have been nominated by their colleagues and selected by a committee of their peers.",
   "sec2_mainContent5_text1": "2019: The Best CEO of the Year",
-  "header3": "Projects",
-  "header3Desc": "Those gadgets",
-  "header2": "experience",
-  "header2Desc": "Those little monsters I hit"
+  "sec3_header": "Projects",
+  "sec3_desc": "Those gadgets",
+
+  "sec3_mainContent_subTitle": "Iron Man Armor Project",
+  "sec3_mainContent_content_subsubTitle": "Positioning",
+  "sec3_mainContent_content_textList": "The Iron Man Armor Project is a project led by Tony Stark to create a high-tech suit of armor that can give its wearer superhuman abilities. This project is a combination of defense, aerospace, and robotics technologies.",
+  "sec3_mainContent_content2_subsubTitle": "Challenges",
+  "sec3_mainContent_content2_textList": "The challenges in this project include designing a suit that is lightweight, durable, and able to withstand high-speed flight and intense combat. The project also requires sophisticated energy management and advanced materials science.",
+  "sec3_mainContent_content3_textList2": "Power supply: One of the major challenges of the Iron Man Armor Project was creating a sustainable and powerful enough power source to keep the suit operational for extended periods of time.",
+  "sec3_mainContent_content3_textList3": "Flight stabilization: Another challenge was stabilizing the suit's flight capabilities and making sure it was aerodynamic enough to be able to fly at high speeds without losing control.",
+  "sec3_mainContent_content3_textList4": "Armor durability: The armor needed to be durable enough to withstand heavy impacts, energy blasts, and other attacks without being destroyed or severely damaged.",
+  "sec3_mainContent_content3_subsubTitle": "Achievements",
+  "sec3_mainContent_content3_textList": "The Iron Man Armor Project resulted in a series of successful suits, including the Mark II, Mark III, and Mark XLII models. These suits not only provided their wearers with superhuman abilities but also had many practical applications, such as firefighting, deep-sea exploration, and space travel.",
+
+  "sec3_mainContent2_subTitle": "Cybernetic Project",
+  "sec3_mainContent2_content_textList": "The Cybernetic Project is a project led by Tony Stark to enhance human abilities with cybernetic implants. This project combines biotechnology, artificial intelligence, and human-machine interface technologies.",
+  "sec3_mainContent2_content2_textList": "The challenges in this project include developing cybernetic implants that are safe, effective, and compatible with the human body. The project also requires the development of advanced neuroprosthetics and intelligent control systems",
+  "sec3_mainContent2_content3_textList": "The Cybernetic Project resulted in the creation of many successful prototypes, including the Extremis virus and the Neuro-Suit. These technologies not only enhanced human abilities but also had medical applications, such as healing injuries and curing diseases.",
+
+  "sec3_mainContent3_subTitle": "Avengers Initiative",
+  "sec3_mainContent3_content_textList": "The Avengers Initiative is a project led by Tony Stark to assemble a team of superheroes to defend the world against threats. This project involves recruiting and training superheroes from around the world and providing them with resources and support.",
+  "sec3_mainContent3_content2_textList": "The challenges in this project include finding suitable candidates with the necessary skills and abilities. The project also requires coordinating the efforts of diverse and sometimes conflicting personalities.",
+  "sec3_mainContent3_content3_textList": "The Avengers Initiative resulted in the formation of a highly effective team that has saved the world from numerous threats, including Loki, Ultron, and Thanos. The team also had many positive effects on the world, such as inspiring people to be brave and selfless.",
+  "sec3_mainContent3_content3_textList2": "Defeated Loki: The Avengers successfully defended New York City from an invasion by Loki and his army of alien creatures, thwarting his plan to enslave humanity with the Tesseract.",
+  "sec3_mainContent3_content3_textList3": "Stopped Ultron: The Avengers prevented the rogue AI Ultron from destroying humanity by stopping his plan to create a global extinction event using an artificial meteor.",
+  "sec3_mainContent3_content3_textList4": "Defeated Thanos: The Avengers, along with their allies, were able to defeat the powerful Titan Thanos, who had acquired all six Infinity Stones and wiped out half of all life in the universe with a snap of his fingers. They were able to reverse the damage he had done and save the universe from complete destruction."
 }

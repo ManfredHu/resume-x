@@ -1,65 +1,56 @@
 <template>
   <div class="w-full">
     <section class="py-2 w-full">
-      <div v-for="(item, idx) in mainContent" :key="`body` + idx" class="my-2">
-        <!-- subTitle start -->
+      <!-- item means MainIntroductionContent -->
+      <div v-for="(item, idx) in content" :key="`body` + idx" class="my-2">
+        <!-- contentTitle start -->
         <h2
-          v-if="item.subTitle"
+          v-if="item.contentTitle"
           className="rounded-full text-xl mh-c-text-const bg-primary px-4 py-1 inline-block"
         >
-          {{ t(item.subTitle) }}
+          {{ t(item.contentTitle) }}
         </h2>
-        <!-- subTitle end -->
+        <!-- contentTitle end -->
 
-        <!-- period start -->
-        <div v-if="item.period" class="flex flex-row mt-4">
-          <h3 class="text-lg text-primary flex-shrink-0">
-            {{
-              `${timePeriodSymbol[0]}
-              ${item.period?.timePeriod && t(item.period.timePeriod)}
-              ${timePeriodSymbol[1]}`
-            }}
-          </h3>
-          <div class="text-lg ml-2 mh-c-text">
-            {{ item.period.headship && t(item.period.headship) }}
-          </div>
-        </div>
-        <!-- period end -->
-
-        <!-- rewards start -->
-        <div v-if="item.rewards" class="text-lg mt-4 flex flex-col gap-y-4">
+        <!-- section start -->
+        <div
+          v-for="(section, sectionIdx) in item.section"
+          :key="`section` + sectionIdx"
+          class=""
+        >
           <div
-            v-for="(reward, rIdx) in item.rewards"
-            :key="`body-rewards` + rIdx"
+            v-if="section.sectionTitle || section.sectionDesc"
+            class="flex flex-row mt-4"
           >
-            <h3 class="text-lg text-primary flex-shrink-0 inline-block">
+            <h3 class="text-lg text-primary flex-shrink-0">
               {{
-                `${rewardsTypeSymbol[0]}${
-                  reward.rewardsType && t(reward.rewardsType)
-                }${rewardsTypeSymbol[1]}`
+                `${sectionTitleSymbol[0]}
+                ${section?.sectionTitle && t(section?.sectionTitle)}
+                ${sectionTitleSymbol[1]}`
               }}
             </h3>
-            <span class="mh-c-text">{{ t(reward.text) }}</span>
+            <div class="text-lg ml-2 mh-c-text">
+              {{ section?.sectionDesc && t(section?.sectionDesc) }}
+            </div>
           </div>
-        </div>
-        <!-- rewards end -->
 
-        <!-- textList start -->
-        <div v-if="item.textList" class="py-3">
-          <ol v-if="Array.isArray(item.textList) && item.textList.length > 0">
-            <li
-              v-for="(j, idx) in item.textList"
-              :key="`body-textList` + idx"
-              class="text-lg mh-c-text list-decimal list-inside"
-            >
-              {{ t(j) }}
-            </li>
-          </ol>
-          <div v-else class="text-lg mh-c-text">
-            {{ item.textList && t(item.textList as string) }}
+          <!-- section texts start -->
+          <div v-if="section.texts" class="py-3">
+            <ol v-if="Array.isArray(section.texts) && section.texts.length > 0">
+              <li
+                v-for="(j, textsIdx) in section.texts"
+                :key="`section${sectionIdx}-texts${textsIdx}`"
+                class="text-lg mh-c-text list-decimal list-inside"
+              >
+                {{ t(j) }}
+              </li>
+            </ol>
+            <div v-else class="text-lg mh-c-text">
+              {{ section.texts && t(section.texts as string) }}
+            </div>
           </div>
+          <!-- section texts end -->
         </div>
-        <!-- textList end -->
       </div>
     </section>
   </div>
@@ -67,13 +58,13 @@
 
 <script setup lang="ts">
 import type { MainIntroductionContent } from "@/types/components";
-import { timePeriodSymbol, rewardsTypeSymbol } from "@/config/symbol";
+import { sectionTitleSymbol } from "@/config/symbol";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 // trick to pass array's type
 defineProps<{
-  mainContent: MainIntroductionContent[];
+  content: MainIntroductionContent[];
 }>();
 </script>
 

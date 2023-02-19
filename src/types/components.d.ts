@@ -1,6 +1,7 @@
 import type { Components } from "ionicons/dist/types/index";
 import type { TitleStyleType } from "./enum";
 
+// basic info section
 export type BaseInfoType = {
   avator: string;
   name: string;
@@ -13,6 +14,15 @@ export type BaseInfoType = {
   })[];
 };
 
+export type MainIntroduction = {
+  article: Article;
+};
+
+type Article = {
+  heading: MainIntroductionTitle;
+  content: MainIntroductionContent[];
+}[];
+
 export type MainIntroductionTitle = {
   title: string;
   desc?: string;
@@ -21,39 +31,36 @@ export type MainIntroductionTitle = {
   inlineEndLine?: boolean;
 };
 
+type Section = {
+  sectionTitle?: string;
+  sectionDesc?: string;
+  texts?: string | string[];
+};
+
 type MainIntroductionContent = {
   // section common params
-  subTitle?: string;
-  textList?: string | string[];
+  contentTitle?: string;
 
+  section?: Section[];
   // for 'Experience'
-  period?: {
-    timePeriod?: string;
-    headship?: string;
-    textList?: string | string[];
-  };
+  // period?: {
+  //   timePeriod?: string;
+  //   headship?: string;
+  //   textList?: string | string[];
+  // };
 
-  // for 'Awards'
-  rewards?: {
-    rewardsType?: string;
-    text: string;
-  }[];
+  // // for 'Awards'
+  // rewards?: {
+  //   rewardsType?: string;
+  //   text: string;
+  // }[];
 
   // // for 'Projects'
   // projects?: {
-  //   projectName: string;
-  //   projectImages?: string[];
-
+  //   projectImgUrl?: string[];
   //   content?: {
-  //     subTile?: string;
-  //     textList?: string[];
-  //   };
-  // }[];
-};
-
-export type MainIntroduction = {
-  content: {
-    header: MainIntroductionTitle;
-    mainContent: MainIntroductionContent[];
-  }[];
+  //     subsubTitle?: string;
+  //     textList?: string | string[];
+  //   }[];
+  // };
 };

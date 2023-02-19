@@ -1,5 +1,5 @@
 import type { BaseInfoType } from "@/types/components";
-import Avator from "@/images/iron-man.jpeg";
+import Avator from "@/images/avator.jpeg";
 
 export default {
   avator: Avator,
@@ -12,7 +12,7 @@ export default {
     {
       name: "call",
       text: "call", // for text key
-      link: "tel:555-555-5555",
+      link: "tel:555-555-5555", // for tel phone which can be clicked
     },
     {
       name: "school",
@@ -21,7 +21,7 @@ export default {
     {
       name: "mail",
       text: "mail", // for text key
-      link: "mailto:tony@starkindustries.com",
+      link: "mailto:tony@starkindustries.com", // for email address which can be clicked
     },
     {
       name: "cube-sharp",
@@ -30,7 +30,7 @@ export default {
     {
       name: "logo-github",
       text: "github", // for text key
-      link: "https://github.com/Tony Stark",
+      link: "https://github.com/Tony Stark", // for github which can be clicked
     },
     {
       name: "calendar",
@@ -39,7 +39,7 @@ export default {
     {
       name: "home",
       text: "home",
-      link: "https://Tony Stark.com/",
+      link: "https://Tony Stark.com/", // for personal website which can be clicked
     },
   ],
 } as BaseInfoType;
