@@ -2,7 +2,7 @@
   <div class="w-full">
     <section class="py-2 w-full">
       <!-- item means MainIntroductionContent -->
-      <div v-for="(item, idx) in content" :key="`body` + idx" class="my-2">
+      <div v-for="(item, idx) in content" :key="`body` + idx" class="my-4">
         <!-- contentTitle start -->
         <h2
           v-if="item.contentTitle"

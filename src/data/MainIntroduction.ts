@@ -182,15 +182,15 @@ export default {
           section: [
             {
               sectionTitle: "sec3_mainContent_content_subsubTitle",
-              texts: "sec3_mainContent_content_textList",
+              texts: "sec3_mainContent2_content_textList",
             },
             {
               sectionTitle: "sec3_mainContent_content2_subsubTitle",
-              texts: "sec3_mainContent_content2_textList",
+              texts: "sec3_mainContent2_content2_textList",
             },
             {
               sectionTitle: "sec3_mainContent_content3_subsubTitle",
-              texts: "sec3_mainContent_content3_textList",
+              texts: "sec3_mainContent2_content3_textList",
             },
           ],
         },
@@ -199,11 +199,11 @@ export default {
           section: [
             {
               sectionTitle: "sec3_mainContent_content_subsubTitle",
-              texts: "sec3_mainContent_content_textList",
+              texts: "sec3_mainContent3_content_textList",
             },
             {
               sectionTitle: "sec3_mainContent_content2_subsubTitle",
-              texts: "sec3_mainContent_content2_textList",
+              texts: "sec3_mainContent3_content2_textList",
             },
             {
               sectionTitle: "sec3_mainContent_content3_subsubTitle",
