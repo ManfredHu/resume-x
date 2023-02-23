@@ -10,9 +10,9 @@ Resume-X is a dynamic resume generator that can translate resume content from on
 - Support for multiple color schemes: Resume-X comes with built-in theme color schemes for internet companies such as FANNG and BAT. Applicants can choose different colors according to their needs to express respect for the target interview company.
 - Easy to use: Users only need to add their own resume information to the project, choose the desired language and color scheme, and then generate a global resume.
 
-
-FANNG: Facebook, Amazon, Netflix, Google, and Microsoft. This is a popular acronym in Silicon Valley, USA, representing five tech giant companies.
-BAT: Baidu, Alibaba, and Tencent. This is a popular acronym in China, representing three internet giant companies.
+### FAANG and BAT
+- FANNG: Facebook, Amazon, Netflix, Google, and Microsoft. This is a popular acronym in Silicon Valley, USA, representing five tech giant companies.
+- BAT: Baidu, Alibaba, and Tencent. This is a popular acronym in China, representing three internet giant companies.
 
 
 ## How to use
