@@ -25,7 +25,7 @@ git clone https://github.com/ManfredHu/resume-x
 2. Install dependencies:
 
 ```
-npm install
+npm run init
 ```
 
 3. Edit resume information:

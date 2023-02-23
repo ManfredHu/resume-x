@@ -18,7 +18,7 @@ git clone https://github.com/ManfredHu/resume-x
 
 2. 安装依赖：
 ```
-npm install
+npm run init
 ```
 
 3. 编辑简历信息：
