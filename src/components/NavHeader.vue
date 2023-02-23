@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-screen mh-c-page-main-bg top-0 py-4 px-16 flex items-center justify-end border-b nav"
+    class="w-full mh-c-page-main-bg top-0 py-4 px-16 flex items-center justify-end border-b nav"
   >
     <n-select
       class="w-28 mr-6"

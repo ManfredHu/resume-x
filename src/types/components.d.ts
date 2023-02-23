@@ -40,27 +40,6 @@ type Section = {
 type MainIntroductionContent = {
   // section common params
   contentTitle?: string;
-
   section?: Section[];
-  // for 'Experience'
-  // period?: {
-  //   timePeriod?: string;
-  //   headship?: string;
-  //   textList?: string | string[];
-  // };
-
-  // // for 'Awards'
-  // rewards?: {
-  //   rewardsType?: string;
-  //   text: string;
-  // }[];
-
-  // // for 'Projects'
-  // projects?: {
-  //   projectImgUrl?: string[];
-  //   content?: {
-  //     subsubTitle?: string;
-  //     textList?: string | string[];
-  //   }[];
-  // };
+  imgs?: string[];
 };

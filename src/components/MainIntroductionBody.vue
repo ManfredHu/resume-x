@@ -12,6 +12,8 @@
         </h2>
         <!-- contentTitle end -->
 
+        <ImgSlider v-if="item.imgs && item.imgs.length > 0" :imgs="item.imgs" />
+
         <!-- section start -->
         <div
           v-for="(section, sectionIdx) in item.section"
@@ -59,6 +61,7 @@
 <script setup lang="ts">
 import type { MainIntroductionContent } from "@/types/components";
 import { sectionTitleSymbol } from "@/config/symbol";
+import ImgSlider from "@/components/ImgSlider.vue";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
@@ -66,6 +69,24 @@ const { t } = useI18n();
 defineProps<{
   content: MainIntroductionContent[];
 }>();
+
+// const ironman_suite_imgs_width = 417;
+// const ironman_suite_imgs_height = 768;
+// const container_h = 240;
+// function computedImgPerPage(img_length: number) {
+//   const per_img_width = Math.round(
+//     (ironman_suite_imgs_width * container_h) / ironman_suite_imgs_height
+//   );
+//   return {
+//     imgsLength:
+//   }
+// }
 </script>
 
-<style scoped></style>
+<style scoped>
+.carousel-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+</style>

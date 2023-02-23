@@ -1,5 +1,14 @@
 import type { MainIntroduction } from "@/types/components";
 import { TitleStyleType } from "@/types/enum";
+import Avengers from "@/images/Avengers.webp";
+
+const ironman_suite_imgs = import.meta.glob("@/images/ironman_suite/*", {
+  as: "url",
+});
+
+const cybernetic_imgs = import.meta.glob("@/images/cybernetic/*", {
+  as: "url",
+});
 
 export default {
   article: [
@@ -176,6 +185,7 @@ export default {
               texts: "sec3_mainContent_content3_textList",
             },
           ],
+          imgs: Object.entries(ironman_suite_imgs).map(([key]) => key),
         },
         {
           contentTitle: "sec3_mainContent2_subTitle",
@@ -193,6 +203,7 @@ export default {
               texts: "sec3_mainContent2_content3_textList",
             },
           ],
+          imgs: Object.entries(cybernetic_imgs).map(([key]) => key),
         },
         {
           contentTitle: "sec3_mainContent3_subTitle",
@@ -215,6 +226,7 @@ export default {
               ],
             },
           ],
+          imgs: [Avengers],
         },
       ],
     },

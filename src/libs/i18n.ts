@@ -19,7 +19,9 @@ const messages = Object.entries(files)
 console.log("laguage message", messages);
 
 export const i18n = createI18n({
+  // https://github.com/intlify/vue-i18n-next/issues/904#issuecomment-1056984826
   globalInjection: true, // 全局注册$t方法
+  // Must be set to 'false', to use Composition API
   legacy: false,
   locale: localStorage.getItem("lang") || "en",
   messages,
