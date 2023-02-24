@@ -7,8 +7,10 @@ Resume-x 是一款动态简历生成项目，它可以将一种语言的简历�
 - 支持多种配色方案：Resume-x 内置了 FANNG，BAT 等互联网公司的主题配色方案，应聘者可以根据自己的需求选择不同的颜色以表达对目标面试公司的尊敬。
 - 简单易用：用户只需要在项目中添加自己的简历信息，选择想要的语言和配色方案，然后就可以生成一份全球性简历了。
 
-FANNG：Facebook、Amazon、Netflix、Google 和 Microsoft。这是在美国硅谷地区较为流行的缩写，指代了五家科技巨头企业。
-BAT：Baidu、Alibaba 和 Tencent。这是在中国较为流行的缩写，指代了三家互联网巨头企业。
+
+### FAANG 和 BAT
+- FANNG：Facebook、Amazon、Netflix、Google 和 Microsoft。这是在美国硅谷地区较为流行的缩写，指代了五家科技巨头企业。
+- BAT：Baidu、Alibaba 和 Tencent。这是在中国较为流行的缩写，指代了三家互联网巨头企业。
 
 ## 如何使用
 1. 克隆项目到本地：

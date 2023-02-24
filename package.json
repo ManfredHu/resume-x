@@ -5,7 +5,9 @@
   "scripts": {
     "init": "pnpm i",
     "dev": "vite",
+    "codesandbox:dev": "volar-preview-vite",
     "start": "npm run init && npm run dev",
+    "codesandbox:dev": "volar-preview-vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -23,6 +25,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@codesandbox/vue-preview": "0.1.1-alpha.16",
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/node": "^18.11.12",
     "@vicons/antd": "^0.12.0",

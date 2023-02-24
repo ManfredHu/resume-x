@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@codesandbox/vue-preview': 0.1.1-alpha.16
   '@rushstack/eslint-patch': ^1.1.4
   '@types/node': ^18.11.12
   '@vicons/antd': ^0.12.0
@@ -48,6 +49,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
+  '@codesandbox/vue-preview': 0.1.1-alpha.16
   '@rushstack/eslint-patch': 1.2.0
   '@types/node': 18.11.18
   '@vicons/antd': 0.12.0
@@ -102,6 +104,16 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+
+  /@codesandbox/vue-preview/0.1.1-alpha.16:
+    resolution: {integrity: sha512-ZhiG66TcDMc7GegF2rhXrlL9zE/xioL1dDnn5ymxnaK+Lwt1/Lc0gwlgaa78QyjapDI8oPK2KJDEnYs8kcalUw==}
+    hasBin: true
+    dependencies:
+      ws: 8.12.1
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: true
 
   /@css-render/plugin-bem/0.15.12_css-render@0.15.12:
     resolution: {integrity: sha512-Lq2jSOZn+wYQtsyaFj6QRz2EzAnd3iW5fZeHO1WSXQdVYwvwGX0ZiH3X2JQgtgYLT1yeGtrwrqJdNdMEUD2xTw==}
@@ -3293,6 +3305,19 @@ packages:
 
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    dev: true
+
+  /ws/8.12.1:
+    resolution: {integrity: sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
     dev: true
 
   /xml-name-validator/4.0.0:
