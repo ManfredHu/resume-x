@@ -5,6 +5,7 @@
   "scripts": {
     "init": "pnpm i",
     "dev": "vite",
+    "codesandbox:dev": "volar-preview-vite",
     "start": "npm run init && npm run dev",
     "codesandbox:dev": "volar-preview-vite",
     "build": "run-p type-check build-only",
