@@ -1,18 +1,24 @@
 {
-  // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
       "name": "Install Dependencies",
       "command": "npm run init"
     }
   ],
-
-  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "npm run dev": {
+    "build": {
       "name": "Vite Dev",
-      "command": "npm run codesandbox:dev",
+      "command": "npm run build",
       "runAtStart": true
+    },
+    "preview": {
+      "name": "Preview Page",
+      "command": "npm run preview",
+      "runAtStart": true,
+      "preview": {
+        "port": 4173,
+        "prLink": "direct"
+      }
     }
   }
 }
