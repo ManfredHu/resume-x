@@ -5,6 +5,13 @@ Thanks to ChatGPT for generating Iron Man's resume. The main purpose of the proj
 
 Resume-X is a dynamic resume generator that can translate resume content from one language to global resume content in 48 languages. It supports theme colors for internet companies such as FANNG and BAT. Applicants can choose different languages and color schemes according to their needs to express respect for the target interview company.
 
+## Preview
+Thanks to Vercel, the page can be hosted and deployed in Vercel.
+
+So, [you can open here to preview the page](https://resume-x-seven.vercel.app/).
+
+And switch themes and languages through the drop-down list in the upper right corner
+
 ## Features
 - Support for multiple languages: By using the VSCode i18n Ally plugin, Resume-X can quickly translate resume content from one language to global resume content. Currently, it supports 48 languages.
 - Support for multiple color schemes: Resume-X comes with built-in theme color schemes for internet companies such as FANNG and BAT. Applicants can choose different colors according to their needs to express respect for the target interview company.
