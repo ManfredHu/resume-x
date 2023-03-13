@@ -17,8 +17,7 @@ const router = createRouter({
 });
 
 router.beforeEach(async (to, from, next) => {
-  const [lang, topic] = to.params.path as [Locale, Topic];
-
+  const [lang = "en", topic = "vue"] = to.params.path as [Locale, Topic];
   const color = TopicConfig[topic].primaryColor;
 
   if (typeof color === "string") {
