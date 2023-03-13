@@ -2,6 +2,10 @@
 # Resume-X
 Resume-x 是一款动态简历生成项目，它可以将一种语言的简历内容翻译为支持48种语言的全球性简历，并支持 FANNG，BAT 等互联网公司的主题配色。应聘者可以根据自己的需求选择不同的语言和配色方案，以表达对目标面试公司的尊敬。
 
+## 预览
+Thanks to Vercel, the page can be hosted and deployed in Vercel.
+感谢Vercel，页面被托管部署在Vercel上。你可以[点击这里预览部署后的页面](https://resume-x-seven.vercel.app/)。并通过右上角下拉列表切换主题和语言
+
 ## 项目特点
 - 支持多种语言：通过使用 VSCode 多语言插件 i18n Ally，Resume-x 可以将一种语言的简历内容快速翻译成全球性简历，目前支持48种语言。
 - 支持多种配色方案：Resume-x 内置了 FANNG，BAT 等互联网公司的主题配色方案，应聘者可以根据自己的需求选择不同的颜色以表达对目标面试公司的尊敬。
